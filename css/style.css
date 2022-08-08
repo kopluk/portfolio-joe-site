@@ -1,0 +1,631 @@
+@font-face {
+    font-family: 'Be Vietnam Light';
+    src: url(../fonts/font-light.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Regular';
+    src: url(../fonts/font-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Semibold';
+    src: url(../fonts/font-semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Padauk Regular', sans-serif;
+    src: url(../fonts/padauk-regular.ttf);
+}
+
+body {
+    font-family: 'Be Vietnam Regular', sans-serif;
+    font-size: 35px;
+    line-height: 55px;
+    color: #000;
+
+    padding: 0;
+    margin: 0;
+    min-width: 1240px;
+}
+
+.container {
+    width: 1240px;
+    padding: 0 10px;
+    margin: auto;
+
+    /* border: 1px solid black; */
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.main-header {
+    padding: 0;
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 205px;
+
+    /* border: 1px solid black; */
+}
+
+.main-header .container {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-right: 94px;
+}
+
+.main-menu li:nth-child(2){
+    margin-right: 140px;
+}
+
+.main-menu li:last-child{
+    margin-right: 0;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.main-menu a:hover,
+.main-menu a:active {
+    color: #E84949;
+}
+
+.main-menu .active a {
+    color: #E84949;
+}
+
+.main-menu .active::after {
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    content: "";
+    background-image: url(../img/gear-wheel.png);
+    background-repeat: no-repeat;
+    right: -50%;
+}
+
+.author {
+    padding-bottom: 281px;
+
+    /* border: 1px solid black; */
+}
+
+.author .container {
+    position: relative;
+}
+
+.author .container::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/Leonid.jpg);
+    background-repeat: no-repeat;
+    width: 509px;
+    height: 678px;
+    left: 700px;
+    top: -40px;
+}
+
+.author-promo {
+    width: 630px;
+    padding-bottom: 8px;
+    padding-top: 40px;
+
+    /* border: 1px solid black; */
+}
+
+.author h2 {
+    font-family: 'Be Vietnam Semibold', sans-serif;
+    font-size: 50px;
+    line-height: 54px;
+    color: #3A3A3A;
+    margin-bottom: 37px;
+}
+
+.author p {
+    color: #838383;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 37px;
+}
+
+.btn {
+    padding: 10px 24px;
+    font-size: 35px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.author-btn {
+    background-color: #E84949;
+}
+
+.skills {
+    padding-bottom: 69px;
+
+    /* border: 1px solid black; */
+}
+
+.skills h2 {
+    font-family: 'Be Vietnam Semibold', sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+    color: #F37A7A;
+    margin-bottom: 65px;
+
+    /* border: 1px solid black; */
+}
+
+.skills-promo {
+    position: relative;
+    width: 688px;
+
+    /* border: 1px solid black; */
+}
+
+.skills-promo::after {
+    position: absolute;
+    background-image: url(../img/points.png);
+    width: 511px;
+    height: 426px;
+    content: "";
+    left: 740px;
+    top: 0;
+}
+
+.skills-promo > p {
+    color: #838383;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.skills-icons {
+    padding: 0 56px;
+
+    /* border: 1px solid black; */
+}
+
+.table-icon {
+    position: relative;
+    display: inline-block;
+    padding-top: 115px;
+}
+
+.table-icon .icon {
+    position: absolute;
+    width: 105px;
+    height: 115px;
+    background-image: url(../img/icons-lang.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 10px;
+}
+
+.icon-css {
+    background-position: -186px 0;
+}
+
+.icon-js {
+    background-position: -369px 0;
+}
+
+.icon-boot {
+    background-position: 0 -203px;
+}
+
+.table-icon:nth-child(3) {
+    margin-bottom: 58px;
+}
+
+.table-icon p {
+    font-size: 22px;
+    line-height: normal;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    margin-right: 64px;
+    width:121px;
+    text-align: center;
+}
+
+.table-icon p:first-child {
+    width: 76px;
+    margin-right: 87px;
+}
+
+.projects {
+    padding-bottom: 105px;
+    
+    /* border: 1px solid black; */
+}
+
+.projects .container {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.projects h2 {
+    position: relative;
+    width: 157px;
+    margin: auto;
+    margin-bottom: 43px;
+    color: #F37A7A;
+    font-family: 'Be Vietnam Semibold' sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+}
+
+.projects h2::after {
+    position: absolute;
+    width: 55px;
+    height: 46px;
+    content: "";
+    background-image: url(../img/gera-wheel-light.png);
+    background-repeat: no-repeat;
+    right: -50%;
+    top: 10px;
+}
+
+.projects >.container > p {
+    font-family: 'Be Vietnam Regular', sans-serif;
+    font-size: 35px;
+    line-height: normal;
+    color: #818080;
+    text-align: center;
+    padding: 0;
+    margin:0;
+    margin-bottom: 53px;
+}
+
+.projects-table {
+    position: relative;
+    float: left;
+    display: block;
+    width: 373px;
+    height: 491px;
+    font-size: 0;
+    padding: 5px;
+    margin: 0;
+    margin-right: 44px;
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+
+    /* border: 1px solid black; */
+}
+
+.projects-table:nth-child(3) {
+    width: 378px;
+}
+
+.projects-table:last-child {
+    width: 371px;
+    margin-right: 0;
+}
+
+.table-photo {
+    position: absolute;
+    width: 380px;
+    height: 276px;
+    left: 5px;
+     background-image: url(../img/table-project.png);
+    background-repeat: no-repeat; 
+    /* background: rgba(255, 0, 0, 0.9); */
+}
+
+.photo-socialmedia {
+    background-position: 0 0;
+}
+
+.photo-card {
+    background-position: -436px 0;
+}
+
+.photo-address {
+    background-position: -869px 0;
+}
+
+.projects-table p {
+    font-size: 30px;
+    line-height: normal;
+    color: #818080;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 276px;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.projects-table:last-child p {
+    padding-top: 320px;
+}
+
+.projects-table:nth-child(4) p {
+    padding: 5px 10px;
+    padding-bottom: 20px;
+    padding-top: 276px;
+}
+
+.projects-table a {
+    position: relative;
+    font-family: 'Padauk Regular', sans-serif;
+    font-size: 30px;
+    line-height: normal;
+    color: #0571AD;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 27px;
+
+    /* border: 1px solid black; */
+}
+
+.projects-table:nth-child(4) a {
+    padding-left: 10px;
+}
+
+.projects-table a::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/internet-blue.png);
+    background-repeat: no-repeat;
+}
+
+.projects-table:nth-child(3) a::after {
+    left: 98px;
+}
+
+.projects-table:nth-child(4) a::after {
+    left: 90px;
+}
+
+.projects-table:last-child a::after {
+    left: 94px;
+}
+
+.contacts {
+    margin-bottom: 85px;
+    
+    /* border: 1px solid black; */
+}
+
+.contacts .container {
+    position: relative;
+}
+
+.contacts .container::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/contacts-man.png);
+    background-repeat: no-repeat;
+    width: 636px;
+    height: 471px;
+    left: 0;
+    top: 135px;
+}
+
+.contacts .container {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.contacts h2 {
+    font-family: 'Be Vietnam Semibold', sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    color: #F37A7A;
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.main-form {
+    float: right;
+    width: 515px;
+    padding: 0;
+    margin: 0;
+
+    /* border: 1px solid black; */
+}
+
+.main-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-form li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.main-form li:last-child {
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"],
+textarea {
+    vertical-align: top;
+    /* text-align: left; */
+    padding: 0;
+    margin: 0;
+    margin-bottom: 43px;
+    outline: none;
+    border: 1px solid #838383;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: normal;
+    color: #838383;
+}
+
+input[type="text"]  {
+    text-decoration: underline;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 27px 19px;
+    padding-bottom: 17px;
+}
+
+textarea {
+    padding: 10px 19px;
+    resize: none;
+    width: 100%;
+    height: 243px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    font-size: 36px;
+    line-height: normal;
+    padding: 0;
+    padding: 10px 25px;
+    padding-right: 75px;
+    margin: 0;
+    color: #FFFDFD;
+    background-color: #6860E2;
+    border-color: #6860E2;
+    cursor: pointer;
+    background-image: url(../img/paper-plane.png);
+    background-repeat: no-repeat;
+    background-position: 125px 13px;
+}
+
+.main-footer {
+    background-image: url(../img/footer-wave.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    padding-top: 146px;
+    padding-bottom: 144px;
+
+    /* border: 1px solid black; */
+}
+
+.main-footer .container::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer li {
+    display: inline-block;
+    font-size: 0;
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    /* background: rgba(255, 0, 0, 0.9); */
+    margin-right: 65px;
+}
+
+.main-footer li:nth-child(2) {
+   background-position: -130px 0; 
+}
+
+.main-footer li:nth-child(3) {
+    background-position: -260px 0; 
+}
+
+.main-footer li:last-child {
+    background-position: -390px;
+    margin-right: 0;
+}
+
+.main-footer p {
+    font-size: 35px;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.main-footer p:last-child {
+    color: #fffafa;
+}
+
+.social {
+    display: block;
+    float: left;
+}
+
+.social p {
+    display: block;
+    margin-bottom: 34px;
+}
+
+.git {
+    display: block;
+    float: right;
+}
+
+.git p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 19px;
+}
+
+.git p:last-child {
+    position: relative;
+    margin-bottom: 0;
+    padding-left: 87px;
+
+    /* border: 1px solid black; */
+}
+
+.git p:last-child::before {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    content: "";
+    background-image: url(../img/github-cat.png);
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.git a {
+    color: #0ACBBF;
+    text-decoration: none;
+}
